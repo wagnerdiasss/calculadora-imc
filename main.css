@@ -70,7 +70,6 @@ button {
     flex-direction: column;
     text-align: center;
     width: 800px;
-    height: 200px;
     max-height: fit-content;
     margin: auto;
     background-color: white;
