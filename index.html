@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>calculadora de imc</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <h1 class="messi">Contador de imc</h1>
+    <form action="javascript:sumValues()">
+        <input type="number" id="num1" placeholder="peso" />
+        <input type="number" step=".01" id="num2" placeholder="altura" />
+        <button type="submit">calcular</button>
+    </form>
+
+    <div id="resultado-container">
+        <h2 id="imc">278</h2>
+        <H3 id="categoria">Categoria</H3>
+
+    </div>
+
+
+    <table border="1">
+        <caption>lista de clasificação do imc</caption>
+        <tr>
+            <th>imc</th>
+            <th>clasificação</th>
+        </tr>
+        <tr>
+            <td>Abaixo de 18</td>
+            <td>Abaixo do peso </td>
+        </tr>
+        <tr>
+            <td>18,5-24.9</td>
+            <td>Peso ideal</td>
+        </tr>
+        <tr>
+            <td>24.9-29.9</td>
+            <td>Sobre peso</td>
+        </tr>
+        <tr>
+            <td>30-34.9</td>
+            <td>Obesidade grau1</td>
+        </tr>
+        <tr>
+            <td>35-39.9</td>
+            <td>Obesidade grau2</td>
+        </tr>
+        <tr>
+            <td>Acima de 40</td>
+            <td>Obesidade grau3</td>
+        </tr>
+
+
+
+    </table>
+</body>
+
+</html>
